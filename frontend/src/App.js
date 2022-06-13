@@ -1,10 +1,17 @@
 import "./App.css";
 
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 function App() {
     return (
-        <div className='App'>
-            <h2>Welcome to KiriShop</h2>
-        </div>
+        <>
+            <Header />
+            <main>
+                <h2>Welcome to KiriShop</h2>
+            </main>
+            <Footer />
+        </>
     );
 }
 
