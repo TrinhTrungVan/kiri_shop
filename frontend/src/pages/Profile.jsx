@@ -62,6 +62,19 @@ const Profile = () => {
                         >
                             Change Password
                         </MenuItem>
+                        <Button
+                            fullWidth
+                            variant='contained'
+                            size='large'
+                            color='otherColor'
+                            sx={{
+                                margin: "24px 0",
+                                height: "56px",
+                                color: "#fff",
+                            }}
+                        >
+                            Log out
+                        </Button>
                     </MenuList>
                 </Grid>
                 <Grid item xs={10}>
